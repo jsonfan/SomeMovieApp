@@ -6,8 +6,12 @@
 //  Copyright © 2016 Jason. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class MovieAppModel: NSObject {
-
+    var imdbID: String = ""
+    
+    func initFromProperties(propertiesDictionary: NSDictionary) {
+        imdbID = propertiesDictionary["imdbID"] as! String
+    }
 }

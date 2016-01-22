@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URIs</key>
+	<dict>
+		<key>OMDBAPIBase</key>
+		<string>https://www.omdbapi.com/?</string>
+		<key>YearOfRelease</key>
+		<string>y=</string>
+		<key>OMDBByIDOrTitle</key>
+		<dict>
+			<key>IMDbID</key>
+			<string>i=</string>
+			<key>MovieTitle</key>
+			<string>t=</string>
+			<key>IncludeRottenTomatoesRatings</key>
+			<string>tomatoes=true</string>
+		</dict>
+		<key>OMDBBySearch</key>
+		<dict>
+			<key>SearchParameter</key>
+			<string>s=</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
